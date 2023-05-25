@@ -4,6 +4,7 @@ int main (int argc, char** argv)
 {
 	int m, n, p;
 	int i, j, k;
+	
 	printf("m = ");
 	scanf("%d", &m);
 	printf("n = ");
@@ -11,11 +12,9 @@ int main (int argc, char** argv)
 	printf("p = ");
 	scanf("%d", &p);
 	
-	
 	int a[m][n], b[n][p], c[m][p];
 	
 	printf("Insira numeros da Matriz A:\n");
-	
 	for(i = 0; i<m ; i++)
 	{
 		for(j=0 ; j<n; j++)
@@ -26,8 +25,6 @@ int main (int argc, char** argv)
 	}
 	
 	printf("Insira numeros da Matriz B:\n");
-	
-	
 	for(i = 0; i<n ; i++)
 	{
 		for(j=0 ; j<p; j++)
@@ -42,17 +39,17 @@ int main (int argc, char** argv)
 		for(j=0 ; j<p; j++)
 		{
 			c[i][j] = 0;
-			for(k=0; k<n ; k++){
+			
+			for(k=0; k<n ; k++)
+			{
 				c[i][j]+= a[i][k]*b[k][j];
 			}
 		}
 	}
 	
-	printf("Produto das Matrizes A e B:\n\n");
-	
+	printf("Produto das Matrizes A e B:\n\n");	
 	for(i = 0; i<m ; i++)
 	{
-		
 		for(j=0 ; j<p; j++)
 		{
 			printf("%d ", c[i][j]);
@@ -60,4 +57,6 @@ int main (int argc, char** argv)
 		
 		printf("\n");
 	}
+	
+	return 0;
 }
