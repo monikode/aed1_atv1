@@ -1,0 +1,1 @@
+Tendo acesso ao alocamento de memória possivel através da linguagem C, evita o armazenamento de memoria inutilizada, podendo reservar apenas o tamanho que irá usar e liberar quando precisar.

@@ -1,0 +1,1 @@
+Sim, porque ele aponta para o endereço de início da sequência.

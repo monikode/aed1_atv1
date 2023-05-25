@@ -1,0 +1,2 @@
+Uma string é um vetor de caracteres, logo aponta para o ponteiro da primeira posição.
+ex: str[10] = "Hello" é igual a ["H", "e", "l", "l", "o", "\0", NULL, NULL, NULL, NULL] onde o \0 determina o fim da string.

@@ -1,0 +1,1 @@
+R: vetor com endereço 85848, na setima posicao do vetor.

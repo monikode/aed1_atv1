@@ -1,0 +1,1 @@
+O vetor é um ponteiro que aponta para o começo da sequência elementos do vetor na memória. Logo, podemos inicializar uma variável ponteiro com o endereço de início do vetor e percorrer os endereços usando soma e subtração.

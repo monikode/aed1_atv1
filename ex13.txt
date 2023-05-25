@@ -1,0 +1,1 @@
+A diferença existe na hora da soma (v+3) o valor de v muda e para voltar ao inicio do vetor tem que subtrair -3. Ao usar v[3], v continua apontando para o inicio do vetor.

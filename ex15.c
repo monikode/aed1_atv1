@@ -15,6 +15,8 @@ int conta_bissextos(dma data)
 {
 	int anos = data.ano;
 	
+
+	
     if (data.mes <= 2)
         anos--;
         
@@ -29,8 +31,10 @@ int diferenca(dma inicio, dma fim)
     long int dias_inicio = inicio.ano * 365 + inicio.dia;
   
     for (i = 0; i < inicio.mes - 1; i++)
-        dias_inicio += dia_meses[i];
-  
+    {
+    	dias_inicio += dia_meses[i];
+	}
+        
     dias_inicio += conta_bissextos(inicio);
   
     long int dias_fim = fim.ano * 365 + fim.dia;
